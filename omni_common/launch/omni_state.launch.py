@@ -36,7 +36,7 @@ def generate_launch_description():
             output="screen",
             parameters=[
                 {"omni_name": "phantom"},
-                {"publish_rate": 1000},
+                {"publish_rate": 250},
                 {"reference_frame": "/map"},
                 {"units": "mm"}
             ]
